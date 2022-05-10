@@ -3,6 +3,7 @@ Python 3.10.1
 
 Если не запускается и выдает ошибку ImportError: attempted relative import with no known parent package
 ТО нужно убрать . (точку) в тестах
+
 Тоесть:
 
 from .pages.product_page import ProductPage
