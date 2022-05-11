@@ -20,7 +20,7 @@ class LoginPage(BasePage):
         assert self.is_element_present(*LoginPageLocators.REGISTER_FORM), "Otsutstvuet forma registracii!"
 
     def make_email_and_pass(self):
-        return (str(time.time()) + "@fakemail.org", "myStrongPassword№121") #
+        return (str(time.time()) + "@fakemail.org", "12345_Password")
 
     def register_new_user(self, email, password):
         self.email = email
